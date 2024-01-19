@@ -4,7 +4,7 @@ using namespace std;
 class roar
 {
 public :
-        int a,b,c;
+        float a,b,c;
         int multiplication();
         int division();
 
@@ -33,7 +33,7 @@ public :
 };
 int roar :: multiplication()
 {
-    int a, b,c;
+    float a, b,c;
         cout<<"\n---Multiplication Program---";
         cout<< "\nEnter the Value of A:";
         cin>>a;
@@ -45,7 +45,7 @@ int roar :: multiplication()
 
 int roar :: division()
 {
-    int a, b, c;
+    float a, b, c;
         cout<<"\n---Division Program---";
         cout<< "\nEnter the Value of A:";
         cin>>a;
